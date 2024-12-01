@@ -3,8 +3,10 @@
 TestScrapy es un proyecto de web scraping que utiliza la librería [HtmlAgilityPack](https://www.nuget.org/packages/HtmlAgilityPack/) y [ScrapySharp](https://github.com/Hazakura/ScrapySharp) para extraer información de sitios web. Actualmente, el proyecto incluye ejemplos de cómo hacer scraping en sitios como **Xataka** y **SUNAT**.
 
 ## Descripción
-
 El proyecto está diseñado para realizar scraping de sitios web específicos utilizando clases de C# como `HtmlWeb` de **HtmlAgilityPack** y `CssSelect` de **ScrapySharp**. A través de estas herramientas, se puede extraer información estructurada de páginas web.
+
+## Propósito
+El propósito de este proyecto es ofrecer ejemplos básicos de scraping en C#, con un enfoque en cómo extraer contenido específico de páginas web utilizando herramientas populares del ecosistema .NET.
 
 ### Funcionalidades actuales:
 
@@ -18,3 +20,10 @@ Para ejecutar este proyecto en tu máquina local, asegúrate de tener instalado 
 
 - **.NET 8.0** o superior
 - **HtmlAgilityPack** y **ScrapySharp** como dependencias de NuGet
+
+## Tecnologías usadas
+- C#
+- .NET 8.0
+- HtmlAgilityPack
+- ScrapySharp
+- CSS Selectors (para extraer contenido específico de páginas web)
